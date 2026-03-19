@@ -15,7 +15,7 @@ if (!sessionId) {
 
 // const phoneNumberDiv = "91 63664 48599";
 
-const phoneNumberDiv = `<a href="tel:+918929849314">91 89298 49314</a>`;
+const phoneNumberDiv = `<a href="tel:+919156390116">91 9156390116</a>`;
 
 const projectLogo = "";
 
