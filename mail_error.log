@@ -1,0 +1,8 @@
+[2026-02-24 19:19:39] Error sending email. | Invalid address:  (cc):  | IP: 2409:40c2:100d:ac18:2877:f338:fc2b:6d6a | UA: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0
+[2026-02-24 19:19:48] Error sending email. | Invalid address:  (cc):  | IP: 2409:40c2:100d:ac18:2877:f338:fc2b:6d6a | UA: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0
+[2026-02-24 19:21:18] Error sending email. | Invalid address:  (cc):  | IP: 2409:40c2:100d:ac18:2877:f338:fc2b:6d6a | UA: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0
+[2026-02-24 19:21:20] Error sending email. | Invalid address:  (cc):  | IP: 2409:40c2:100d:ac18:2877:f338:fc2b:6d6a | UA: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0
+[2026-02-24 19:21:28] Error sending email. | Invalid address:  (cc):  | IP: 2409:40c2:100d:ac18:2877:f338:fc2b:6d6a | UA: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0
+[2026-02-24 19:24:22] Error sending email. | Invalid address:  (to):  | IP: 2409:40c2:100d:ac18:2877:f338:fc2b:6d6a | UA: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0
+[2026-02-24 19:24:33] Error sending email. | Invalid address:  (to):  | IP: 2409:40c2:100d:ac18:2877:f338:fc2b:6d6a | UA: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:147.0) Gecko/20100101 Firefox/147.0
+[2026-02-27 12:03:09] Error: Missing required fields (name, phone, or email). |  | IP: 145.239.68.210 | UA: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
