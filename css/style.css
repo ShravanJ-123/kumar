@@ -22,13 +22,13 @@
 
 :root {
     --black: #444444;
-    --darkblue: #d6b46d;
-    --darkblue1: #dbb052;
-    --lightblue: #f1f9f9;
-    --yellow: #0f58aa;
+    --darkblue: #f27f0c;
+    --darkblue1: #cc6205;
+    --lightblue: #fff4e8;
+    --yellow: #f27f0c;
     --white: #fff;
-    --slaty: #C8935F;
-    --slaty_1: #565249;
+    --slaty: #dd6f08;
+    --slaty_1: #7a4308;
     --transition: all 0.4s ease-in-out;
     --shadow: 0px 4px 63px 0px rgba(15, 28, 51, 0.10);
     --shadow_1: 0 10px 20px rgb(24 19 19 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
@@ -139,7 +139,7 @@ button {
 
 .gradient {    
     
-    background: linear-gradient(-45deg, #272424, #650934, #2e2c2c, #650934); 
+    background: linear-gradient(-45deg, #8f4102, #f27f0c, #cc6205, #f27f0c); 
     /* background: linear-gradient(-45deg, #000000, #736741, #000000, #736741);  */
     /* background: linear-gradient(-45deg, #000000, #0c71b2, #000000, #0c71b2);  */
     background-size: 400% 400%;
@@ -172,7 +172,7 @@ button {
     /* background: var(--white); */
     /* background: #000000; */
     /* background: #414141; */
-    background: #650934;
+    background: var(--slaty_1);
     transition: var(--transition);    
 }
 
@@ -418,7 +418,7 @@ select option {
 }
 
 .book-and-get-details {
-    background: var(--black);
+    background: var(--slaty_1);
     padding: 15px 0;
 }
 
@@ -603,7 +603,7 @@ select option {
     width: 100%;
     padding: 20px 18px 18px;
     border-radius: 18px 0 0 18px;
-    background-color: rgba(17, 17, 17, 0.76);
+    background-color: rgba(102, 46, 3, 0.84);
     backdrop-filter: blur(14px);
     box-shadow: 0 18px 40px rgba(0, 0, 0, 0.28);
     max-height: min(78vh, 620px);
@@ -650,18 +650,14 @@ select option {
 .banner-mobile-image {
     width: 100%;
     display: block;
-    aspect-ratio: 16/12;
-    object-fit: cover;
+    /* aspect-ratio: 16/12;
+    object-fit: cover; */
 }
 
 .banner-mobile-content {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 16px 14px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.88) 70%);
-    color: #fff;
+    padding: 18px 14px 20px;
+    background: #fff;
+    color: #111;
 }
 
 .banner-mobile-title {
@@ -669,13 +665,24 @@ select option {
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin-bottom: 6px;
+    line-height: 1.15;
+    margin-bottom: 8px;
 }
 
 .banner-mobile-subtitle {
-    font-size: 14px;
-    line-height: 1.5;
-    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 1.45;
+    margin-bottom: 16px;
+}
+
+.banner-mobile-content .appbtn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 14px 18px;
+    border-radius: 8px;
 }
 
 .banner-mobile-form-wrap {
@@ -957,7 +964,7 @@ a .pro-price {
 
 .decision_corner {
     padding: 50px 0;
-    background-image: linear-gradient(to bottom, #f9f5ef, #d3c7b5a8);
+    background-image: linear-gradient(to bottom, #fff8f1, #ffd5aa);
     figure {
         img {
             width: 80%;
@@ -978,7 +985,7 @@ a .pro-price {
     .boxes {
         padding: 0 15px;
         &:first-child {
-            border-right: 1px solid #aa8b6c;
+            border-right: 1px solid #eca767;
         }
     }
     .title {
@@ -1029,7 +1036,7 @@ a .pro-price {
 
 .sitefooter {
     /* background: var(--black); */
-    background: #650934;
+    background: var(--darkblue1);
     padding: 25px 0;
     color: var(--white);
 }
@@ -1319,7 +1326,7 @@ a .pro-price {
         padding: 1px 12px 1px 12px;
     }
     .logo img {
-        height: 56px;
+        height: 50px;
     }
     .bannerSection .carousel-inner .sliderimg {
         aspect-ratio: 21/9.5;
@@ -2083,7 +2090,7 @@ a .pro-price {
     right: 20px;
     height: 50px;
     width: 50px;
-    background-image: linear-gradient(to right, #9ba11e, #9ba11e, #9ba11e, #9ba11e, #9ba11e);
+    background-image: linear-gradient(to right, #f27f0c, #d96b07, #cc6205, #e97709, #f27f0c);
     z-index: 9999;
     border-radius: 30px;
     box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);

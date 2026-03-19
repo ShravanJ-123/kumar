@@ -80,12 +80,13 @@ if ($normalizedCountryCode !== '' && strpos($fullPhone, '+') !== 0) {
 $clientIp = get_client_ip();
 
 $toAddresses = [
-    'contactrkrealtysolutions@gmail.com',
-    'rkrealty.sales@gmail.com',
-    'rkpro8899@gmail.com',
-    'abhijitsarvade39@gmail.com',
+    // 'contactrkrealtysolutions@gmail.com',
+    // 'rkrealty.sales@gmail.com',
+    // 'rkpro8899@gmail.com',
+    // 'abhijitsarvade39@gmail.com',
+    'shravanjare@gmail.com',
 ];
-$subject = "Mantra-home inquiry by $name";
+$subject = "KUMAR PROPERTIES inquiry by $name";
 
 $body = "You have received a new inquiry:\n"
     . "- Name: $name\n"
@@ -113,7 +114,7 @@ try {
         ],
     ];
 
-    $mail->setFrom('info@mantraproperty.in', 'Mantra-home');
+    $mail->setFrom('info@mantraproperty.in', 'KUMAR PROPERTIES');
     foreach ($toAddresses as $address) {
         $mail->addAddress($address);
     }

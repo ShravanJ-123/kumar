@@ -1,11 +1,11 @@
         :root {
-            --chat-brand: #650934;
-            --chat-brand-dark: #272424;
-            --chat-accent: #d6b46d;
-            --chat-surface: #f7f4f6;
+            --chat-brand: #f27f0c;
+            --chat-brand-dark: #8f4102;
+            --chat-accent: #ffc78c;
+            --chat-surface: #fff8f1;
             --chat-surface-2: #ffffff;
-            --chat-border: #dbc8d1;
-            --chat-text: #2f2a2a;
+            --chat-border: #f0c89e;
+            --chat-text: #3a2414;
         }
 
         .chat-bot-icon {
@@ -48,7 +48,7 @@
             min-height: 56px !important;
             padding: 10px 12px !important;
             border: 0 !important;
-            background: linear-gradient(-45deg, var(--chat-brand-dark), var(--chat-brand), #2e2c2c, var(--chat-brand)) !important;
+            background: linear-gradient(-45deg, var(--chat-brand-dark), var(--chat-brand), #cc6205, var(--chat-brand)) !important;
             background-size: 400% 400% !important;
         }
 
@@ -192,14 +192,14 @@
         }
 
         .chat-screen .chat-bubble.you {
-            background: #f1ecef !important;
+            background: #fff1e4 !important;
             color: var(--chat-text) !important;
-            border: 1px solid #e4dbe0 !important;
+            border: 1px solid #f5d0aa !important;
         }
 
         .chat-screen .chat-bubble.me {
             margin-left: auto !important;
-            background: linear-gradient(-45deg, var(--chat-brand-dark), var(--chat-brand), #2e2c2c, var(--chat-brand)) !important;
+            background: linear-gradient(-45deg, var(--chat-brand-dark), var(--chat-brand), #cc6205, var(--chat-brand)) !important;
             background-size: 400% 400% !important;
             color: #fff !important;
             border: 1px solid var(--chat-brand) !important;
@@ -218,8 +218,8 @@
             min-width: 210px !important;
             padding: 8px 12px !important;
             border-radius: 16px !important;
-            border: 1px solid rgba(101, 9, 52, 0.35) !important;
-            background: rgba(101, 9, 52, 0.08) !important;
+            border: 1px solid rgba(242, 127, 12, 0.35) !important;
+            background: rgba(242, 127, 12, 0.08) !important;
             color: var(--chat-brand) !important;
             font-size: 13px !important;
             font-weight: 500 !important;
@@ -235,7 +235,7 @@
 
         .chat-screen .chat-input {
             padding: 10px 12px 12px !important;
-            border-top: 1px solid #e5dbe1 !important;
+            border-top: 1px solid #f2dcc4 !important;
             background: var(--chat-surface-2) !important;
             overflow: visible !important;
         }
@@ -250,7 +250,7 @@
         .chat-screen .chat-input .user-input,
         .chat-phone-input {
             height: 42px !important;
-            border: 1px solid #b8a9b0 !important;
+            border: 1px solid #dfbf9f !important;
             border-radius: 7px !important;
             padding: 0 12px !important;
             font-size: 14px !important;
@@ -268,7 +268,7 @@
         .chat-country:focus {
             outline: none !important;
             border-color: var(--chat-brand) !important;
-            box-shadow: 0 0 0 2px rgba(101, 9, 52, 0.12) !important;
+            box-shadow: 0 0 0 2px rgba(242, 127, 12, 0.16) !important;
         }
 
         .chat-screen .chat-input .input-action-icon {
@@ -290,7 +290,7 @@
             display: inline-flex !important;
             align-items: center !important;
             justify-content: center !important;
-            background: linear-gradient(-45deg, var(--chat-brand-dark), var(--chat-brand), #2e2c2c, var(--chat-brand)) !important;
+            background: linear-gradient(-45deg, var(--chat-brand-dark), var(--chat-brand), #cc6205, var(--chat-brand)) !important;
             background-size: 400% 400% !important;
             color: #fff !important;
             cursor: pointer;
@@ -325,7 +325,7 @@
         .chat-country {
             width: 84px;
             height: 42px;
-            border: 1px solid #b8a9b0;
+            border: 1px solid #dfbf9f;
             border-radius: 7px;
             background: #fff;
             color: #2d2b2e;
@@ -350,7 +350,7 @@
             text-align: center;
             border-radius: 10px;
             background: #fff;
-            border: 1px solid #cbb3c0 !important;
+            border: 1px solid var(--chat-border) !important;
             box-shadow: 0 8px 20px rgba(39, 36, 36, 0.2) !important;
             color: #2f2a2a;
             font-size: 15px;
@@ -364,7 +364,7 @@
             float: none;
             border: 0;
             background: transparent;
-            color: #4b3a45;
+            color: #8a5a34;
             font-size: 22px;
             line-height: 1;
             opacity: 0.8;
@@ -387,8 +387,8 @@
             font-weight: 700;
             padding: 9px 16px;
             border-radius: 26px;
-            border: 1px solid #650934;
-            background: linear-gradient(-45deg, #272424, #650934, #2e2c2c, #650934);
+            border: 1px solid var(--chat-brand);
+            background: linear-gradient(-45deg, var(--chat-brand-dark), var(--chat-brand), #cc6205, var(--chat-brand));
             background-size: 400% 400%;
             color: #fff;
             line-height: 1.1;
@@ -396,7 +396,7 @@
 
         button.chat-pop-sm-btn:hover {
             color: #fff;
-            background: #4e0729;
+            background: #cc6205;
         }
 
         @media (max-width: 767px) {
